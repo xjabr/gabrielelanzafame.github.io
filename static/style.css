@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sofia+Sans:ital,wght@0,400;0,600;1,400&display=swap");
+.text-primary {
+  color: #3ebb40cc !important;
+}
+
+body {
+  background: #fff;
+}
+@media print {
+  body {
+    background-color: #111;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, p, div, a, button, small, span {
+  font-family: "Sofia Sans", sans-seri;
+  color: #111;
+}
+@media print {
+  h1, h2, h3, h4, h5, h6, p, div, a, button, small, span {
+    color: #000000;
+  }
+}
+
+h1.name {
+  font-size: 4.5rem;
+  font-weight: 600;
+  line-height: 0.9;
+}
+
+.profile-photo {
+  border-radius: 100%;
+  border: solid 2px #FFFFFF;
+  padding: 5px;
+  width: 160px;
+  height: 160px;
+  aspect-ratio: 1/1;
+}
+
+.text-secondary {
+  color: #333 !important;
+}
+@media print {
+  .text-secondary {
+    color: #0f0f0f !important;
+  }
+}
+
+a:hover {
+  color: #3ebb40cc;
+  text-decoration: none;
+}
+
+.section-title {
+  color: #3ebb40cc;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+@media print {
+  .section-title {
+    color: #FF5722;
+  }
+}
+
+.contact-info {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.work-experience__role {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.work-experience__company {
+  font-size: 20px;
+  font-weight: 300;
+  color: #333;
+  margin-bottom: 0;
+}
+@media print {
+  .work-experience__company {
+    color: #0f0f0f;
+  }
+}
+.work-experience__info {
+  display: flex;
+  justify-content: space-between;
+}
+.work-experience__info span {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  color: #333;
+}
+.work-experience__techs .badge {
+  background-color: transparent !important;
+  color: #3ebb40cc;
+  border: 1px solid #3ebb40cc;
+}
+@media print {
+  .work-experience__techs .badge {
+    background-color: #111 !important;
+    color: #314755 !important;
+    border-color: #314755 !important;
+  }
+}
+
+.skill-category {
+  border: solid 1px #314755;
+  border-radius: 10px;
+}
+@media print {
+  .skill-category {
+    border-color: #314755;
+  }
+}
+.skill-category__title {
+  background-color: #fff;
+  border: 1px solid #111;
+  border-radius: 4px;
+  position: relative;
+  padding: 5px;
+  top: -12px;
+  left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+}
+@media print {
+  .skill-category__title {
+    background-color: #111 !important;
+  }
+}
+.skill-category__skill__icon {
+  width: 25px;
+}/*# sourceMappingURL=style.css.map */
